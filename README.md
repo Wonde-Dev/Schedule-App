@@ -42,7 +42,7 @@ You can:
 
 ### ➕ Add Schedule Screen
 
-![Add]()
+![Add](https://github.com/Wonde-Dev/Schedule-App/blob/e8dea3569740ee2f58ef59340e08ffc28c6a2cce/assets/images/adding%20stuffs.jpg)
 
 ### 🗑️ Delete Schedule Screen
 
