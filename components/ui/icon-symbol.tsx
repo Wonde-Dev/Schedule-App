@@ -18,7 +18,9 @@ const MAPPING = {
   'paperplane.fill': 'send',
   'chevron.left.forwardslash.chevron.right': 'code',
   'chevron.right': 'chevron-right',
-} as IconMapping;
+  'calendar': 'calendar-month',
+  'list.bullet': 'format-list-bullets',
+} as any;
 
 /**
  * An icon component that uses native SF Symbols on iOS, and Material Icons on Android and web.
