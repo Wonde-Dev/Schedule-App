@@ -1,50 +1,146 @@
-# Welcome to your Expo app 👋
+# 📱 Schedule App (React Native + Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple and efficient **Schedule Management Mobile App** built using **React Native** and **Expo**. The app allows users to create, view, and delete daily schedules in a clean and easy-to-use interface.
 
-## Get started
+---
 
-1. Install dependencies
+## 📌 Project Overview
 
-   ```bash
-   npm install
-   ```
+The Schedule App helps users organize their daily tasks and events. It is designed for simplicity, speed, and smooth user experience.
 
-2. Start the app
+You can:
 
-   ```bash
-   npx expo start
-   ```
+- Create new schedules
+- View all saved schedules
+- Delete completed or unwanted schedules
+- Navigate easily between screens
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## ✨ Features
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- 🏠 Home screen displaying all schedules
+- ➕ Add new schedule with title and details
+- 📅 Schedule listing page for organized view
+- 🗑️ Delete schedule functionality
+- ⚡ Fast performance using Expo
+- 📱 Cross-platform (Android & iOS)
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🖼️ App Screenshots (Preview)
+
+> Add your images inside `/assets` folder
+
+### 🏠 Home Screen
+
+![Home](./assets/home.png)
+
+### 📅 Schedule Screen
+
+![Schedule](./assets/schedule.png)
+
+### ➕ Add Schedule Screen
+
+![Add](./assets/add.png)
+
+### 🗑️ Delete Schedule Screen
+
+![Delete](./assets/delete.png)
+
+---
+
+## 🧠 What This App Includes (Core Functionality)
+
+### 1. Home Screen
+
+- Displays all saved schedules
+- Shows list of tasks in an organized format
+- Navigation to add new schedules
+
+### 2. Add Schedule Screen
+
+- Input fields for schedule title and description
+- Save button to store data
+- Validations for empty inputs
+
+### 3. Schedule Management
+
+- Displays all created schedules
+- Allows users to scroll and view items easily
+
+### 4. Delete Functionality
+
+- Remove schedules individually
+- Instant UI update after deletion
+
+### 5. Navigation System
+
+- Smooth navigation between screens using React Navigation
+- Home → Add → Schedule flow
+
+---
+
+## 🛠️ Tech Stack
+
+- React Native
+- Expo
+- JavaScript (ES6+)
+- React Navigation
+- AsyncStorage (for local storage)
+
+---
+
+## 📁 Project Structure
 
 ```bash
-npm run reset-project
+schedule-app/
+├── assets/
+│   ├── home.png
+│   ├── schedule.png
+│   ├── add.png
+│   └── delete.png
+│
+├── components/
+│   └── (reusable UI components)
+│
+├── screens/
+│   ├── HomeScreen.js
+│   ├── AddScheduleScreen.js
+│   ├── ScheduleScreen.js
+│   └── DeleteScreen.js
+│
+├── navigation/
+│   └── AppNavigator.js
+│
+├── App.js
+└── package.json
+### and You can use :
+🚀 How to Run This Project
+Step 1: Clone the repository
+git clone https://github.com/your-username/schedule-app.git
+cd schedule-app
+Step 2: Install dependencies
+
+Install all required packages:
+
+npm install
+
+or
+
+yarn install
+Step 3: Start the Expo server
+
+Run the project using Expo:
+
+npx expo start
+Step 4: Open on device
+Install Expo Go on your mobile phone
+Scan the QR code from terminal or browser
+The app will open instantly
+Step 5: Build (Optional)
+
+If you want APK or production build:
+
+eas build
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
