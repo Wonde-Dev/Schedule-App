@@ -34,7 +34,7 @@ You can:
 
 ### 🏠 Home Screen
 
-![Home]/home/neostack/android-app/assets/images/adding stuffs.jpg
+![Home](https://github.com/Wonde-Dev/Schedule-App/blob/8257fdda29d91e74b3809ec0b1b1cba30fff005d/assets/images/home.jpg)
 
 ### 📅 Schedule Screen
 
