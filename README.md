@@ -38,11 +38,11 @@ You can:
 
 ### 📅 Schedule Screen
 
-![Schedule](./assets/schedule.png)
+![Schedule](https://github.com/Wonde-Dev/Schedule-App/blob/58d229f8ad67dcdf8eaec9c741e0d4360360ae08/assets/images/schedule.jpg)
 
 ### ➕ Add Schedule Screen
 
-![Add](./assets/add.png)
+![Add]()
 
 ### 🗑️ Delete Schedule Screen
 
