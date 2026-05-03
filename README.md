@@ -46,7 +46,7 @@ You can:
 
 ### 🗑️ Delete Schedule Screen
 
-![Delete](./assets/delete.png)
+![Delete](https://github.com/Wonde-Dev/Schedule-App/blob/f49e91235d9245893de994865b4faaef75e4298a/assets/images/erase%20stuffs.jpg)
 
 ---
 
